@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "deb https://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
 wget http://www.webmin.com/jcameron-key.asc
 apt-key add jcameron-key.asc
